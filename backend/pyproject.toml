@@ -1,0 +1,22 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "A cinematography sharing web app"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "boto3>=1.42.25",
+    "fastapi[standard]>=0.128.0",
+    "pgvector>=0.4.2",
+    "pillow>=12.1.0",
+    "psycopg[binary,pool]>=3.3.2",
+    "sqlalchemy>=2.0.45",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+app = "app.main:main"

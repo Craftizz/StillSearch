@@ -1,0 +1,16 @@
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.separator {
+    margin: 0 8px;
+    height: 20px;
+    width: 1px;
+    color: white;
+    background-color: var(--gray-300);
+}
