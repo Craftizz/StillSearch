@@ -1,5 +1,3 @@
-
-from email import message
 from uuid import UUID
 from pydantic import BaseModel
 
@@ -10,6 +8,8 @@ class ImageBase(BaseModel):
 class ImageCreate(BaseModel):
     """Schema for creating a new image"""
     user_id: UUID
+
+    description: str | None = None
 
 class ImageResponse(BaseModel):
     """Schema for image response"""

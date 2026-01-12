@@ -12,6 +12,7 @@ dependencies = [
     "pillow>=12.1.0",
     "psycopg[binary,pool]>=3.3.2",
     "sqlalchemy>=2.0.45",
+    "structlog>=25.5.0",
 ]
 
 [build-system]

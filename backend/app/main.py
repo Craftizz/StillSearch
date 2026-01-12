@@ -1,15 +1,16 @@
-from dataclasses import dataclass
-from tkinter import NO
-
+import structlog
 import uvicorn
+
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
+
 from app.container import Container
+from app.cloudflare.client import R2Client
 from app.images.router import ImageRouter
 from app.shared.database import create_db_engine, create_session_factory
+from app.shared.logging import Environment, LogLevel, setup_structlog
 
-
-from app.cloudflare.client import R2Client
+logger = structlog.get_logger()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -17,6 +18,13 @@ async def lifespan(app: FastAPI):
     Application lifespan manager for startup and shutdown events.
     Handles models initialization and cleanup.
     """
+    setup_structlog(
+        environment=Environment.DEVELOPMENT,
+        log_level=LogLevel.DEBUG
+    )
+
+    logger.info("Starting up application...")
+
     engine = create_db_engine()
     session_factory = create_session_factory(engine)
     r2_client = R2Client()

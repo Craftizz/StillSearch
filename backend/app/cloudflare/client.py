@@ -9,10 +9,10 @@ from app.cloudflare.config import r2_settings
 logger = logging.getLogger(__name__)
 
 
-class BucketType(str, Enum):
-    ORIGINAL = "stillsearch-images"
-    OPTIMIZED = "optimized"
-    THUMBNAIL = "thumbnail"
+class Bucket(str, Enum):
+    ORIGINAL = "stillsearch-images-original"
+    OPTIMIZED = "stillsearch-images-optimized"
+    THUMBNAIL = "stillsearch-images-thumbnail"
 
 
 class R2Client:

@@ -1,0 +1,74 @@
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:22:50.735730Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12 21:26:36", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:29:22.907744Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:31:06.235607Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:32:43.943850Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:42:10.942151Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:42:38.135578Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:44:48.476093Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:44:53.052085Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:45:36.817654Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:45:59.317145Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:46:12.904848Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:46:57.242086Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:51:15.892089Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:54:09.375484Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:55:36.423164Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Calling on_part_begin with no data", "timestamp": "2026-01-12T13:55:55.567297Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_header_field with data[57:76]", "timestamp": "2026-01-12T13:55:55.567531Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_value with data[78:177]", "timestamp": "2026-01-12T13:55:55.567792Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_end with no data", "timestamp": "2026-01-12T13:55:55.567965Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_header_field with data[179:191]", "timestamp": "2026-01-12T13:55:55.568169Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_value with data[193:203]", "timestamp": "2026-01-12T13:55:55.568353Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_end with no data", "timestamp": "2026-01-12T13:55:55.568544Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_headers_finished with no data", "timestamp": "2026-01-12T13:55:55.568739Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_part_data with data[207:64985]", "timestamp": "2026-01-12T13:55:55.568991Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:32768]", "timestamp": "2026-01-12T13:55:55.570216Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:262144]", "timestamp": "2026-01-12T13:55:55.570714Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:262144]", "timestamp": "2026-01-12T13:55:55.571153Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:262144]", "timestamp": "2026-01-12T13:55:55.571496Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:98304]", "timestamp": "2026-01-12T13:55:55.571776Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:177715]", "timestamp": "2026-01-12T13:55:55.581247Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_end with no data", "timestamp": "2026-01-12T13:55:55.581519Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_end with no data", "timestamp": "2026-01-12T13:55:55.581733Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T13:56:49.993618Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Calling on_part_begin with no data", "timestamp": "2026-01-12T13:56:53.714325Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_header_field with data[57:76]", "timestamp": "2026-01-12T13:56:53.714574Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_value with data[78:177]", "timestamp": "2026-01-12T13:56:53.714784Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_end with no data", "timestamp": "2026-01-12T13:56:53.714955Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_header_field with data[179:191]", "timestamp": "2026-01-12T13:56:53.715121Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_value with data[193:203]", "timestamp": "2026-01-12T13:56:53.715317Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_header_end with no data", "timestamp": "2026-01-12T13:56:53.715540Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_headers_finished with no data", "timestamp": "2026-01-12T13:56:53.715748Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_part_data with data[207:261593]", "timestamp": "2026-01-12T13:56:53.716025Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:262144]", "timestamp": "2026-01-12T13:56:53.716449Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:32768]", "timestamp": "2026-01-12T13:56:53.716786Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:262144]", "timestamp": "2026-01-12T13:56:53.737832Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:262144]", "timestamp": "2026-01-12T13:56:53.738233Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_data with data[0:79411]", "timestamp": "2026-01-12T13:56:53.742982Z", "level": "debug", "filename": "multipart.py", "lineno": 624, "func_name": "callback"}
+{"event": "Calling on_part_end with no data", "timestamp": "2026-01-12T13:56:53.743187Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "Calling on_end with no data", "timestamp": "2026-01-12T13:56:53.743404Z", "level": "debug", "filename": "multipart.py", "lineno": 627, "func_name": "callback"}
+{"event": "select pg_catalog.version()", "timestamp": "2026-01-12T13:56:53.790866Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "[raw sql] ()", "timestamp": "2026-01-12T13:56:53.791233Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "select current_schema()", "timestamp": "2026-01-12T13:56:53.802141Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "[raw sql] ()", "timestamp": "2026-01-12T13:56:53.802430Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "show standard_conforming_strings", "timestamp": "2026-01-12T13:56:53.805210Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "[raw sql] ()", "timestamp": "2026-01-12T13:56:53.805497Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "BEGIN (implicit)", "timestamp": "2026-01-12T13:56:53.807372Z", "level": "info", "filename": "base.py", "lineno": 2710, "func_name": "_connection_begin_impl"}
+{"event": "INSERT INTO images (id, user_id) VALUES ($1::UUID, $2::UUID) RETURNING images.created_at", "timestamp": "2026-01-12T13:56:53.808951Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "[generated in 0.00038s] (UUID('8277e8b8-fa91-4961-9a8a-bc1d431a2a81'), UUID('249333d7-da76-41e1-a2a6-0145be9679ec'))", "timestamp": "2026-01-12T13:56:53.809255Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "COMMIT", "timestamp": "2026-01-12T13:56:53.816052Z", "level": "info", "filename": "base.py", "lineno": 2716, "func_name": "_connection_commit_impl"}
+{"event": "BEGIN (implicit)", "timestamp": "2026-01-12T13:56:53.820448Z", "level": "info", "filename": "base.py", "lineno": 2710, "func_name": "_connection_begin_impl"}
+{"event": "SELECT images.id, images.user_id, images.created_at \nFROM images \nWHERE images.id = $1::UUID", "timestamp": "2026-01-12T13:56:53.822158Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "[generated in 0.00038s] (UUID('8277e8b8-fa91-4961-9a8a-bc1d431a2a81'),)", "timestamp": "2026-01-12T13:56:53.822469Z", "level": "info", "filename": "base.py", "lineno": 1846, "func_name": "_execute_context"}
+{"event": "Starting new HTTPS connection (1): a4a65a3b17c6133982da0f45adeeb4e5.r2.cloudflarestorage.com:443", "timestamp": "2026-01-12T13:56:54.163429Z", "level": "debug", "filename": "connectionpool.py", "lineno": 1049, "func_name": "_new_conn"}
+{"event": "https://a4a65a3b17c6133982da0f45adeeb4e5.r2.cloudflarestorage.com:443 \"PUT /stillsearch-images-original/8277e8b8-fa91-4961-9a8a-bc1d431a2a81 HTTP/1.1\" 200 0", "timestamp": "2026-01-12T13:56:56.187992Z", "level": "debug", "filename": "connectionpool.py", "lineno": 544, "func_name": "_make_request"}
+{"event": "https://a4a65a3b17c6133982da0f45adeeb4e5.r2.cloudflarestorage.com:443 \"PUT /stillsearch-images-optimized/8277e8b8-fa91-4961-9a8a-bc1d431a2a81 HTTP/1.1\" 200 0", "timestamp": "2026-01-12T13:56:58.428315Z", "level": "debug", "filename": "connectionpool.py", "lineno": 544, "func_name": "_make_request"}
+{"event": "https://a4a65a3b17c6133982da0f45adeeb4e5.r2.cloudflarestorage.com:443 \"PUT /stillsearch-images-thumbnail/8277e8b8-fa91-4961-9a8a-bc1d431a2a81 HTTP/1.1\" 200 0", "timestamp": "2026-01-12T13:57:00.328576Z", "level": "debug", "filename": "connectionpool.py", "lineno": 544, "func_name": "_make_request"}
+{"image_id": "8277e8b8-fa91-4961-9a8a-bc1d431a2a81", "user_id": "249333d7-da76-41e1-a2a6-0145be9679ec", "event": "image_upload", "timestamp": "2026-01-12T13:57:00.328977Z", "level": "info", "filename": "service.py", "lineno": 46, "func_name": "upload_image"}
+{"event": "Uploaded image with ID 8277e8b8-fa91-4961-9a8a-bc1d431a2a81 to R2", "timestamp": "2026-01-12T13:57:00.329274Z", "level": "info", "filename": "service.py", "lineno": 55, "func_name": "upload_image"}
+{"event": "ROLLBACK", "timestamp": "2026-01-12T13:57:00.330189Z", "level": "info", "filename": "base.py", "lineno": 2713, "func_name": "_connection_rollback_impl"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T14:37:46.299110Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T14:37:47.261261Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T14:40:23.307799Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
+{"event": "Starting up application...", "timestamp": "2026-01-12T16:06:00.203235Z", "level": "info", "filename": "main.py", "lineno": 26, "func_name": "lifespan"}
