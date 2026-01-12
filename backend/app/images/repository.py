@@ -21,6 +21,13 @@ class ImageRepository:
         await self.db.refresh(image)
 
         return image
+    
+    async def update_image_record(self, image_id: uuid.UUID) -> None:
+        """Updates an image record in the database by its ID"""
+        image = await self.db.get(ImageModel, image_id)
+        if image:
+            # Placeholder for actual update logic
+            await self.db.commit()
 
     async def delete_image_record(self, image_id: uuid.UUID) -> None:
         """Deletes an image record from the database by its ID"""

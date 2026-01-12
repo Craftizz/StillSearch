@@ -1,6 +1,6 @@
 import uuid
-from PIL.Image import Image
 import structlog
+from PIL.Image import Image
 
 from app.images.exceptions import ImageUploadError
 from app.images.repository import ImageRepository
@@ -53,6 +53,13 @@ class ImageService:
             raise ImageUploadError("Failed to upload image") from e
 
         logger.info(f"Uploaded image with ID {image_id} to R2")
+
+    async def update_image(self, image_id: uuid.UUID) -> None:
+        """Updates image metadata in the database."""
+
+        await self.repository.update_image_record(image_id=image_id)
+
+        logger.info(f"Updated image with ID {image_id} in database")
 
     async def delete_image(self, image_id: uuid.UUID) -> None:
         """Deletes an image from the storage service and database."""

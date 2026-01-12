@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, File, UploadFile
 from PIL import Image
 
 from app.images.dependencies import get_image_service
-from app.images.schemas import ImageCreate, ImageUploadResponse
+from app.images.schemas import ImageUpload, ImageUploadResponse
 from app.images.service import ImageService
 
 
@@ -11,7 +11,7 @@ ImageRouter = APIRouter(prefix="/v1/upload", tags=["upload"])
 
 @ImageRouter.post("/", response_model=ImageUploadResponse)
 async def upload_image(
-    metadata: ImageCreate = Depends(),
+    metadata: ImageUpload = Depends(),
     file: UploadFile = File(...),
     image_service: ImageService = Depends(get_image_service),
 ):
@@ -31,3 +31,4 @@ async def upload_image(
         code=200, 
         message="Image uploaded successfully."
     )
+
