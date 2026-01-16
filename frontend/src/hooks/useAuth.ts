@@ -1,4 +1,3 @@
-import { useUser } from "@/context/UserProvider";
 import { authClient } from "@/lib/auth/auth-client";
 
 type AuthResult = {
@@ -7,7 +6,6 @@ type AuthResult = {
 };
 
 export function useAuth() {
-	const { refreshUser } = useUser();
 
 	async function signIn(
 		email: string,
@@ -26,8 +24,6 @@ export function useAuth() {
 				code: result.error.code,
 			};
 		}
-
-		await refreshUser();
 
 		return { success: true };
 	}
@@ -50,14 +46,11 @@ export function useAuth() {
 			};
 		}
 
-		await refreshUser();
-
 		return { success: true };
 	}
 
 	async function signOut(): Promise<AuthResult> {
 		await authClient.signOut();
-		await refreshUser();
 
 		return { success: true };
 	}

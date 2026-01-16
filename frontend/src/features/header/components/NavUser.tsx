@@ -1,9 +1,9 @@
 import { NavigationMenu } from "@base-ui/react/navigation-menu";
+import FolderIcon from "@/components/icons/FolderIcon";
+import PlusIcon from "@/components/icons/PlusIcon";
 import ButtonLink from "@/components/ui/ButtonLink";
 
 import styles from "./NavUser.module.css";
-import FolderIcon from "@/components/icons/FolderIcon";
-import PlusIcon from "@/components/icons/PlusIcon";
 
 export default function NavUser() {
 	return (

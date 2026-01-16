@@ -5,31 +5,29 @@ import Header from "@/features/header/components/Header";
 import UserProvider from "@/context/UserProvider";
 
 const geistSans = Geist({
-  variable: "--font1",
-  subsets: ["latin"],
+	variable: "--font1",
+	subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "StillSearch",
-  description: "WIP",
+	title: "StillSearch",
+	description: "WIP",
 };
 
 export default function RootLayout({
-  auth,
-  children,
+	auth,
+	children,
 }: Readonly<{
-  auth: React.ReactNode;
-  children: React.ReactNode;
+	auth: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={`${geistSans.variable}`}>
-        <UserProvider>
-          <Header />
-          {auth}
-          {children}
-        </UserProvider>
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`${geistSans.variable}`}>
+				<Header />
+				{auth}
+				{children}
+			</body>
+		</html>
+	);
 }
