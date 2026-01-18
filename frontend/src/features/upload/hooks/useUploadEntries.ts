@@ -1,3 +1,13 @@
+/**
+ * @deprecated This hook is deprecated. Use `useUploadForm` or `useUploadEntriesStore` instead.
+ * This hook has been replaced by Zustand stores for better state management.
+ * Will be removed in a future version.
+ *
+ * Migration:
+ * - For entries only: `useUploadEntriesStore` from `../stores/uploadEntriesStore`
+ * - For full form: `useUploadForm` from `./useUploadForm`
+ */
+
 import { useCallback, useEffect, useReducer } from "react";
 import { uploadActions } from "../stores/UploadActions";
 import { type EditableField, uploadReducer } from "../stores/UploadReducer";

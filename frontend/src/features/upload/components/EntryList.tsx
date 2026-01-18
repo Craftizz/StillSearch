@@ -1,10 +1,10 @@
 import type { EditableField } from "../stores/UploadReducer";
-import type { ImageEntry } from "../types/ImageEntry";
+import type { UploadImageEntry } from "../types/UploadImageEntry";
 import EntryCard from "./EntryCard";
-import styles from "./Upload.module.css";
+import styles from "./EntryList.module.css";
 
 type EntryListProps = {
-	entries: ImageEntry[];
+	entries: UploadImageEntry[];
 	onUpdate: (index: number, field: EditableField, value: string) => void;
 	onRemove: (index: number) => void;
 };

@@ -1,0 +1,9 @@
+.sidebar {
+  height: 100%;
+  width: clamp(12rem, 15vw, 20rem);
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 6px;
+  margin-bottom: 12px;
+}
+

@@ -1,6 +1,6 @@
-import type { ImageEntry } from "../types/ImageEntry";
+import type { UploadImageEntry } from "../types/UploadImageEntry";
 
-export function createEntry(file: File): ImageEntry {
+export function createEntry(file: File): UploadImageEntry {
 	return {
 		file,
 		preview: URL.createObjectURL(file),
@@ -9,10 +9,10 @@ export function createEntry(file: File): ImageEntry {
 	};
 }
 
-export function cleanupEntry(entry: ImageEntry): void {
+export function cleanupEntry(entry: UploadImageEntry): void {
 	URL.revokeObjectURL(entry.preview);
 }
 
-export function cleanupEntries(entries: ImageEntry[]): void {
+export function cleanupEntries(entries: UploadImageEntry[]): void {
 	entries.forEach(cleanupEntry);
 }

@@ -1,8 +1,14 @@
-import type { ImageEntry } from "../types/ImageEntry";
+/**
+ * @deprecated This file is deprecated. Use `uploadEntriesStore.ts` instead.
+ * Actions have been migrated to Zustand store methods.
+ * Will be removed in a future version.
+ */
+
+import type { UploadImageEntry } from "../types/UploadImageEntry";
 import type { EditableField, UploadAction } from "./UploadReducer";
 
 export const uploadActions = {
-	add: (entries: ImageEntry[]): UploadAction => ({
+	add: (entries: UploadImageEntry[]): UploadAction => ({
 		type: "ADD",
 		entries,
 	}),

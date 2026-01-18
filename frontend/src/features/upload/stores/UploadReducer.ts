@@ -1,40 +1,46 @@
-import type { ImageEntry } from "../types/ImageEntry";
+/**
+ * @deprecated This file is deprecated. Use `uploadEntriesStore.ts` instead.
+ * This reducer has been migrated to Zustand store for better state management.
+ * Will be removed in a future version.
+ */
 
-export type EditableField = keyof Omit<ImageEntry, "file" | "preview">;
+import type { UploadImageEntry } from "../types/UploadImageEntry";
+
+export type EditableField = keyof Omit<UploadImageEntry, "file" | "preview">;
 
 export type UploadAction =
-	| { type: "ADD"; entries: ImageEntry[] }
+	| { type: "ADD"; entries: UploadImageEntry[] }
 	| { type: "UPDATE"; index: number; field: EditableField; value: string }
 	| { type: "REMOVE"; index: number }
 	| { type: "CLEAR" };
 
-function handleAdd(state: ImageEntry[], entries: ImageEntry[]): ImageEntry[] {
+function handleAdd(state: UploadImageEntry[], entries: UploadImageEntry[]): UploadImageEntry[] {
 	return [...state, ...entries];
 }
 
 function handleUpdate(
-	state: ImageEntry[],
+	state: UploadImageEntry[],
 	index: number,
 	field: EditableField,
 	value: string,
-): ImageEntry[] {
+): UploadImageEntry[] {
 	return state.map((entry, i) =>
 		i === index ? { ...entry, [field]: value } : entry,
 	);
 }
 
-function handleRemove(state: ImageEntry[], index: number): ImageEntry[] {
+function handleRemove(state: UploadImageEntry[], index: number): UploadImageEntry[] {
 	return state.filter((_, i) => i !== index);
 }
 
-function handleClear(): ImageEntry[] {
+function handleClear(): UploadImageEntry[] {
 	return [];
 }
 
 export function uploadReducer(
-	state: ImageEntry[],
+	state: UploadImageEntry[],
 	action: UploadAction,
-): ImageEntry[] {
+): UploadImageEntry[] {
 	switch (action.type) {
 		case "ADD":
 			return handleAdd(state, action.entries);
